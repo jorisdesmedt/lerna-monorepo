@@ -1,4 +1,4 @@
-workflow "New workflow" {
+workflow "Build and deploy" {
   on = "push"
   resolves = ["Filter for master branches", "Checking changed apps"]
 }
