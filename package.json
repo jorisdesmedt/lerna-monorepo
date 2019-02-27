@@ -1,0 +1,18 @@
+{
+  "name": "lerna-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jorisdesmedt/lerna-monorepo.git",
+  "author": "Joris De Smedt",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "libs/*",
+      "apps/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  }
+}
